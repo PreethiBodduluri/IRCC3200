@@ -19,7 +19,7 @@ volatile irparams_t irparams;                 /// used for receiving
 volatile unsigned long ticksPerMicrosecond;  /// used to set the timer for 50us tick
 
 /// parameters for generation of PWM
-int PWMpin = 29;
+int PWMpin = 29; // Pin no. used on CC3200 is P64
 int numberOfSteps = 100;
 int dutyCycle = 50;
 int frequency = 38000;
