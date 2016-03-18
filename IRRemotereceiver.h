@@ -78,7 +78,7 @@ int MATCH_SPACE(int measured_ticks, int desired_us);
 #define SONY 2
 #define SANYO 9
 
-#define RECV_PIN  31
+#define RECV_PIN  31 // Pin no. used on CC3200 is P17
 
 #define NO_OF_APPLIANCES 4  // NO OF APPLIANCES CONTROLLED
 #define NO_OF_LEVEL_APPPLIANCES 2 //no of appliances which has intensity level
